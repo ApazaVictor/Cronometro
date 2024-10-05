@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
 
 
 public class NewJFrame extends javax.swing.JFrame {
-    
+ //@Autor Victor Hugo A.   
     // Variables del cronómetro
     private int segundos = 0;
     private int minutos = 0;
@@ -47,7 +47,7 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
     }
-
+ //@Autor Victor Hugo A.   
     // Método para actualizar el cronómetro
     private void actualizarCronometro() {
         segundos++;
@@ -63,7 +63,7 @@ public class NewJFrame extends javax.swing.JFrame {
         // Actualizar el JTextField con el formato "HH:MM:SS"
         jTextField1.setText(String.format("%02d:%02d:%02d", horas, minutos, segundos));
     }
-
+    //@Autor Victor Hugo A.
     // Método para iniciar el cronómetro
     private void iniciarCronometro() {
         timer.start(); // Iniciar el Timer
